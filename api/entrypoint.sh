@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/ash
 
 cd /
-./usr/bin/bagelReader
+/usr/bin/bagelReader

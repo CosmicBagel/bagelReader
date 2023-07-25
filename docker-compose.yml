@@ -22,7 +22,7 @@ services:
     image: nginx:1-alpine
     restart: always
     volumes:
-      - ./web:/usr/share/nginx/html
+      - ./web/html:/usr/share/nginx/html
     ports: 
       - 127.0.0.1:80:80
       - 127.0.0.1:443:443
